@@ -127,3 +127,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#data files
+09072022_1154_test.h5
+09072022_1154_train.h5
+09072022_1154_val.h5
+a5_q1.pkl
+images_test.h5
+UniqueID-SentinelPair.csv
+resnet_test.ipynb
+ETL.ipynb
+trainset.h5
+GIZ_Biomass_Starter_Notebook.ipynb
