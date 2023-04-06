@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# data
+*.h5
+
+# test_trainer
+test_trainer/
+
+# conda
+.conda/
