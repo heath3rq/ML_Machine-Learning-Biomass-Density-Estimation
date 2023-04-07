@@ -133,6 +133,8 @@ dmypy.json
 
 # test_trainer
 test_trainer/
+test_trainer2/
+allData_trainer/
 
 # conda
 .conda/
