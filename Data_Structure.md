@@ -50,3 +50,9 @@ Resulting feature matrix of number of rows by (16*17) -> number of rows by 272
 | Header Name             | Array of 16 Columns |
 |-------------------------|---------------------|
 | agbd                    | 1                   |
+
+## To use
+
+### Example
+Run data_load.py
+X_train = np.loadtxt("X_train.txt")
