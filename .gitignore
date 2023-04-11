@@ -137,6 +137,10 @@ test_trainer2/
 allData_trainer/
 allData_trainer2/
 allData_trainer3/
+allData_trainer4/
+allData_trainer4-1/
+allData_trainer5/
+allData_trainer6/
 
 # conda
 .conda/
