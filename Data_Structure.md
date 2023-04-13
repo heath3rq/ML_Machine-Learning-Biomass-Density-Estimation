@@ -19,8 +19,8 @@ Dimensions = (number of rows, 15 by 15, channel)
 - Enhance Vegetative Index
 
 ## Transformation
-Used pixel histograms with length of 16
-Resulting feature matrix of number of rows by (16*17) -> number of rows by 272
+Used pixel histograms with length of 3
+Resulting feature matrix of number of rows by (3*17) -> number of rows by 51
 
 ## Final data set structure
 
@@ -28,23 +28,23 @@ Resulting feature matrix of number of rows by (16*17) -> number of rows by 272
 
 | Header Name             | Array of 16 Columns |
 |-------------------------|---------------------|
-| Coastal_Aerosol         | 1-16                |
-| Blue                    | 17-32               |
-| Green                   | 33-48               |
-| Red                     | 49-64               |
-| Vegetation_Red_Edge     | 65-80               |
-| Vegetation_Red_Edge_2   | 81-96               |
-| Vegetation_Red_Edge_3   | 97-112              |
-| NIR                     | 113-128             |
-| Narrow_NIR              | 129-144             |
-| Water_Vapor             | 145-160             |
-| SWIR_1                  | 161-176             |
-| SWIR_2                  | 177-192             |
-| cloud                   | 193-208             |
-| Sentinel_Code           | 209-224             |
-| latitude                | 225-240             |
-| longitude               | 241-256             |
-| EVI                     | 257-272             |
+| Coastal_Aerosol         | 1-3                 |
+| Blue                    | 4-6                 |
+| Green                   | 7-9                 |
+| Red                     | 10-12               |
+| Vegetation_Red_Edge     | 13-15               |
+| Vegetation_Red_Edge_2   | 16-18               |
+| Vegetation_Red_Edge_3   | 19-21               |
+| NIR                     | 22-24               |
+| Narrow_NIR              | 25-27               |
+| Water_Vapor             | 28-30               |
+| SWIR_1                  | 31-33               |
+| SWIR_2                  | 34-36               |
+| cloud                   | 37-39               |
+| Sentinel_Code           | 40-42               |
+| latitude                | 43-45               |
+| longitude               | 46-48               |
+| EVI                     | 49-51               |
 
 ### y_targets
 | Header Name             | Array of 16 Columns |
