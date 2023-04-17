@@ -13,12 +13,12 @@ Packages: run `make install` in terminal
 * Under the PreProcessing directory, you can find code and instruction on how to get and pre-process the data: 
     * Run `python data_load.py` in terminal
 
-* Under the Models directory, you can find code for how to fit the Random Forest and ResNet Models. Below is our modeling process map:
-
-<img width="931" alt="process_map" src="https://user-images.githubusercontent.com/105904149/232633385-61601c68-9b3b-44ee-ab6b-cad6ee6b17cf.png">
-
+* Under the Models directory, you can find code for how to fit the Random Forest and ResNet Models.
     * `random_forest.ipynb`: outlines the model fitting and experiments of the Random Forest model and their results. 
     * `CNN.ipynb`: outlines the model fitting and experiments of the ResNet 50 and ResNet 32 models and their results.
+
+# Modeling Process Map
+<img width="931" alt="process_map" src="https://user-images.githubusercontent.com/105904149/232633385-61601c68-9b3b-44ee-ab6b-cad6ee6b17cf.png">
 
 # Best Results
 |             |  Fine-Tuned Random Forest  | ResNet-32 Model Trained on All Normalized Features |
