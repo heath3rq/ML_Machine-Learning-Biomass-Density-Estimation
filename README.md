@@ -1,4 +1,4 @@
-# Côte d'Ivoire Biomass Density Estimation Project 
+# 🇨🇮 Côte d'Ivoire Biomass Density Estimation Project 
 ## A Comparative Study of Random Forests and CNN in Estimating Biomass and the Relative Importance of Spectral Bands, Cloud Cover, Latitude, and Longitude in the Modeling Process
 
 This repository contains work for the final project for IDS 705. This project’s goal is to to improve the efficiency of biomass estimation using machine learning techniques in areas experiencing deforestation. Biomass has traditionally been measured manually by field experts, which is costly, time-consuming, and difficult to scale. This project explores remote sensing techniques using satellite images. Specifically, this analysis compares the performance of Random Forest models against ResNet Convolution Neural Networks in predicting Above Ground Biomass (AGB) of cocoa plantations in Côte d'Ivoire. 
