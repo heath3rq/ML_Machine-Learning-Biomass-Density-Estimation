@@ -6,3 +6,11 @@ pandas
 numpy
 matplotlib
 request
+tqdm
+transformers
+evaluate
+datasets
+altair
+torch
+torchvision 
+torchaudio

@@ -54,6 +54,6 @@ Resulting feature matrix of number of rows by (3*17) -> number of rows by 51
 ## To use
 
 ### Example
-Run data_load.py
+Run `python data_load.py` in terminal
 
 X_train = np.loadtxt("X_train.txt")
