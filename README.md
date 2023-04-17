@@ -14,6 +14,7 @@ Packages: run `make install` in terminal
     * Run `python data_load.py` in terminal
 
 * Under the Models directory, you can find code for how to fit the Random Forest and ResNet Models. Below is our modeling process map:
+
 <img width="931" alt="process_map" src="https://user-images.githubusercontent.com/105904149/232633385-61601c68-9b3b-44ee-ab6b-cad6ee6b17cf.png">
 
     * `random_forest.ipynb`: outlines the model fitting and experiments of the Random Forest model and their results. 
