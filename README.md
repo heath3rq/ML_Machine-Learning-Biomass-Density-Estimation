@@ -18,7 +18,7 @@ The results of this project suggests that these models are ineffective at predic
     * `CNN.ipynb`: outlines the model fitting and experiments of the ResNet 50 and ResNet 32 models and their results.
 
 # Modeling Process Map
-<img width="931" alt="process_map" src="https://user-images.githubusercontent.com/105904149/232633385-61601c68-9b3b-44ee-ab6b-cad6ee6b17cf.png">
+<img width="725" alt="Screenshot 2023-04-18 at 2 18 49 PM" src="https://user-images.githubusercontent.com/105904149/232868117-6e9630b7-e675-4b93-a485-dca6fcd277b2.png">
 
 # Best Results
 |             |  Fine-Tuned Random Forest  | ResNet-32 Model Trained on All Normalized Features |
