@@ -6,10 +6,10 @@ This repository contains work for the final project for IDS 705. This project’
 The results of this project suggests that these models are ineffective at predicting biomass from Sentinel-2 satellite imagery. While other studies have successfully implemented both of these methods for predicting biomass, the referenced work appears limited to higher resolution imagery (i.e. UAV and high resolution imagery).  Additionally, this analysis compares the importance of the image data (i.e., spectral bands, cloud cover, and location), which suggests that the Infrared and vegetation red wavelengths are most important in predicting biomass.  However, due to the inconsistency in feature importance across models, and multicollinearity between bands, this analysis cannot be considered a causal effect. 
 
 # Setup Instructions
-Python version: 3.10 and above
-Packages: run `make install` in terminal 
+* Python version: 3.10 and above
+* Packages: run `make install` in terminal 
 
-# Run the Files
+# File Instructions
 * Under the PreProcessing directory, you can find code and instruction on how to get and pre-process the data: 
     * Run `python data_load.py` in terminal
 
@@ -18,11 +18,14 @@ Packages: run `make install` in terminal
     * `CNN.ipynb`: outlines the model fitting and experiments of the ResNet 50 and ResNet 32 models and their results.
 
 # Modeling Process Map
-<img width="931" alt="process_map" src="https://user-images.githubusercontent.com/105904149/232633385-61601c68-9b3b-44ee-ab6b-cad6ee6b17cf.png">
+<img width="725" alt="Screenshot 2023-04-18 at 2 18 49 PM" src="https://user-images.githubusercontent.com/105904149/232868117-6e9630b7-e675-4b93-a485-dca6fcd277b2.png">
 
 # Best Results
 |             |  Fine-Tuned Random Forest  | ResNet-32 Model Trained on All Normalized Features |
 |-------------|----------------------------|----------------------------------------------------|
 | RMSE        | 64.63                      | 60.27                                              |
 | R-Sqaured   | 1.68%                      | 14.49%                                             |
+
+# Presentation
+[Côte d'Ivoire Biomass Density Estimation Project - Watch Video](https://www.youtube.com/watch?v=jNuOM7gzLPk)
 
