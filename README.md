@@ -6,8 +6,8 @@ This repository contains work for the final project for IDS 705. This project’
 The results of this project suggests that these models are ineffective at predicting biomass from Sentinel-2 satellite imagery. While other studies have successfully implemented both of these methods for predicting biomass, the referenced work appears limited to higher resolution imagery (i.e. UAV and high resolution imagery).  Additionally, this analysis compares the importance of the image data (i.e., spectral bands, cloud cover, and location), which suggests that the Infrared and vegetation red wavelengths are most important in predicting biomass.  However, due to the inconsistency in feature importance across models, and multicollinearity between bands, this analysis cannot be considered a causal effect. 
 
 # Setup Instructions
-Python version: 3.10 and above
-Packages: run `make install` in terminal 
+* Python version: 3.10 and above
+* Packages: run `make install` in terminal 
 
 # Run the Files
 * Under the PreProcessing directory, you can find code and instruction on how to get and pre-process the data: 
