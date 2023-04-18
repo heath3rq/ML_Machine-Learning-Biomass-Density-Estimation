@@ -27,5 +27,5 @@ The results of this project suggests that these models are ineffective at predic
 | R-Sqaured   | 1.68%                      | 14.49%                                             |
 
 # Presentation
-[Côte d'Ivoire Biomass Density Estimation Project - Watch Video]()
+[Côte d'Ivoire Biomass Density Estimation Project - Watch Video](https://youtu.be/jNuOM7gzLPk)
 
