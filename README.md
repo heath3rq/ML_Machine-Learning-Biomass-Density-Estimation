@@ -7,7 +7,7 @@ The results of this project suggests that these models are ineffective at predic
 
 # Setup Instructions
 * Python version: 3.10 and above
-* Packages: run `make install` in terminal 
+* Packages: run `make install` in terminal
 
 # File Instructions
 * Under the PreProcessing directory, you can find code and instruction on how to get and pre-process the data: 
