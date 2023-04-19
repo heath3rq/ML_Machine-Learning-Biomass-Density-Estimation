@@ -1,12 +1,7 @@
-"""Module to pre process image data > tabular data set
-import matplotlib.pyplot as plt
-import pandas as pd
-import numpy as np
-"""
+"""Module to pre process image data > tabular data set"""
 import urllib.request
 import h5py
 import numpy as np
-from sklearn.preprocessing import StandardScaler
 
 BANDS = [
     "Coastal_Aerosol",
@@ -22,7 +17,6 @@ BANDS = [
     "SWIR_1",
     "SWIR_2",
 ]
-
 
 ##################
 ## data loader ###
@@ -50,8 +44,9 @@ def load_data(url, data):
 ##################
 def data_scaler(col_data):
     """takes in col and scales it"""
-    scaler = StandardScaler()
-    col_data_normalized = scaler.fit_transform(col_data.reshape(-1, 1))
+    mean_col = np.mean(col_data)
+    std_col = np.std(col_data)
+    col_data_normalized = (col_data - mean_col)/std_col
     col_data_normalized = col_data_normalized.reshape((len(col_data), 15, 15, 1))
     return col_data_normalized
 
@@ -82,12 +77,12 @@ def create_features(data):
 
     # 💡 TODO: reduce local assignment 25 -> 15
     # cloud information
-    cloud_data = np.array(data["scl"])
+    cloud_data = np.array(data["cloud"])
     cloud_scaled = data_scaler(cloud_data)
     band_data["cloud_scaled"] = cloud_scaled
 
     # scl information
-    scl_data = np.array(data["cloud"])
+    scl_data = np.array(data["scl"])
     scl_scaled = data_scaler(scl_data)
     band_data["scl_scaled"] = scl_scaled
 
@@ -128,10 +123,11 @@ def create_targets(data):
 
 def main():
     """run through the urls and create datasets"""
+    # 🛑 change links to point to data urls
     file_urls = [
-        "https://share.phys.ethz.ch/~pf/albecker/abc/09072022_1154_train.h5",
-        "https://share.phys.ethz.ch/~pf/albecker/abc/09072022_1154_val.h5",
-        "https://share.phys.ethz.ch/~pf/albecker/abc/09072022_1154_test.h5",
+        "url to train file",
+        "url to validation file",
+        "url to test file",
     ]
     data_set = ["train", "val", "test"]
 
