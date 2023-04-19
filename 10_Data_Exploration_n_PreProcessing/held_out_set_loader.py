@@ -41,10 +41,12 @@ def data_scaler(col_data):
 def make_histogram(channel):
     """takes in a band and creates histograms for each image"""
     channel_histogram = []
+    channel_min = np.min(channel)
+    channel_max = np.max(channel)
     for i in range(len(channel)):
         tmp_img = channel[i, :, :, :]
         hist_tmp, _ = np.histogram(
-            tmp_img, bins=3, range=(np.min(tmp_img), np.max(tmp_img))
+            tmp_img, bins=16, range=(channel_min, channel_max)
         )
         channel_histogram.append(hist_tmp)
     feature_matrix = np.vstack(channel_histogram)
