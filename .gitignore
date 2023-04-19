@@ -129,9 +129,7 @@ dmypy.json
 .pyre/
 
 # data
-20_Models/09072022_1154_test.h5
-20_Models/09072022_1154_train.h5
-20_Models/09072022_1154_val.h5
+*.h5
 
 # test_trainer
 test_trainer/
