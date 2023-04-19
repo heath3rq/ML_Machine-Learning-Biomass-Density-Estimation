@@ -1,4 +1,5 @@
 ## Data Preprocessing 
+This document provides instruction on how to use the `data_load.py` file. 
 
 ### Datasets
 Dimensions = (number of rows, 15 by 15, channel)
