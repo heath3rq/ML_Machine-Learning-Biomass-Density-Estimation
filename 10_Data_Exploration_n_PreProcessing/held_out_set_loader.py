@@ -46,7 +46,7 @@ def make_histogram(channel):
     for i in range(len(channel)):
         tmp_img = channel[i, :, :, :]
         hist_tmp, _ = np.histogram(
-            tmp_img, bins=16, range=(channel_min, channel_max)
+            tmp_img, bins=3, range=(channel_min, channel_max)
         )
         channel_histogram.append(hist_tmp)
     feature_matrix = np.vstack(channel_histogram)
